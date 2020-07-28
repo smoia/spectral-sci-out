@@ -1,5 +1,6 @@
 ### Site settings
 title: Website title
+author: Website author
 email: 
 description: Spectral for Scientific Outreach (Jekyll theme) # should be the same as "out_title"
 baseurl: "/spectral-sci-out" # the subpath of your site: normally corresponds to the name of the repo
