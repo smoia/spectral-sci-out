@@ -1,0 +1,22 @@
+<!-- One -->
+<section id="one" class="wrapper style1 special">
+	<div class="inner">
+		<header class="major">
+			<h2>{{ site.take_home }}</h2>
+			<!-- <p><img src="assets/images/results_4.png" style="width: 30%"></p> -->
+		</header>
+		<ul class="icons major">
+			{% for download in site.downloadable limit:5 %}
+
+				<li><a href="assets/downloadable/{{ download.file }}" style="text-decoration: none !important; padding-left:40px; padding-right:40px">
+					<span class="icon fa-image major style1"><span class="label">{{ download.name }}</span>{{ download.name }}</span></a>
+				</li>
+
+			{% endfor %}
+			<!-- <li><span class="icon fa-code major style3"><span class="label">Code</span></span>
+			</li>
+			<li><span class="icon fa-desktop major style3"><span class="label">Singularity Container</span></span> -->
+			</li>
+		</ul>
+	</div>
+</section>

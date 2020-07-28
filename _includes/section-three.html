@@ -1,0 +1,19 @@
+<!-- Three -->
+<article id="main">
+	<section id="three" class="wrapper style5">
+		<div class="inner">
+		<!-- Main -->
+
+			<h2>Full Text</h2>
+
+			{% for section in site.sections limit:5 %}
+
+				<h3 id="{{ section.title }}">{{ section.title }}</h3>
+				<p>{{ section.content }}</p>
+
+			{% endfor %}
+
+
+		</div>
+	</section>
+</article>

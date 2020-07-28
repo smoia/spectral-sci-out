@@ -1,0 +1,43 @@
+### Site settings
+title: Website title
+email: 
+description: Spectral for Scientific Outreach (Jekyll theme) # should be the same as "out_title"
+baseurl: "/spectral-sci-out" # the subpath of your site: normally corresponds to the name of the repo
+url: "https://smoia.github.io" # the base hostname & protocol for your site: normally your github website
+
+# Misc settings
+featured-image-source:
+
+# Build settings
+markdown: kramdown
+collections:
+  - sections
+
+### Social settings (Will appear in the footer)
+500px_url:
+facebook_url:
+github_url: https://smoia.github.io
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/SteMoia
+
+### Homepage tiles (The "In a nutshell" website part)
+# This tells the website what data folder you're using. In this case, it's the folder "_sections"
+tiles-source: sections # accepts "sections", "posts" or "pages"
+tiles-count: 3
+
+### Outreach Data
+out_title: Spectral for Scientific Outreach (Jekyll theme) # Real title
+out_authors: Awesome team! # The authors
+take_home: This is a nice take home message, that sums up your findings in less than 200 characters!
+# What follows is a list of downloadables that will appear after the take home message.
+# The first one will also appear in the CTA (above the footer)
+# They have to be in assets/downloadable
+downloadable:
+  - {name: Poster1, file: poster1.pdf, type: poster}
+  - {name: Poster2, file: poster2.pdf, type: poster}
+  - {name: Abstract, file: abstract.pdf, type: text}
