@@ -2,21 +2,28 @@
 
 A modified version of the Jekyll version of the "Spectral" theme by [HTML5 UP](https://html5up.net/), adapted for publications and scientific outreach in general (yes, it's a modception).
 
-![Spectral Theme](screenshot.jpg "Spectral Theme")
-
 # How to Use
+
+### Jekyll
 
 For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details,
 or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), and [creating pages](https://jekyllrb.com/docs/pages/).
 
+### "Install"
+
 - **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Simply fork this repository and start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
+- **GitHub**: Either indicate this repo as a template while creating a new repository, or fork this repository and start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
+
+### Populate with your content
+
+Read the HOWTO.md file.
+
 
 # Added Features
 
 This is basically a version of [this GitLab repository](https://gitlab.com/andrewbanchich/spectral-jekyll-theme) made by [Andrew Banchich](https://github.com/andrewbanchich). I'll try to keep up with it for new features.
 
-Essentially, the other feature added on top of it is a bit of work under the hood to make it easy to use for scientific outreach.
+Essentially, the other feature added on top of it is a bit of work under the hood to make it easy to use for scientific outreach, especially in the format of posters, abstracts, or papers.
 
 # Credits
 
